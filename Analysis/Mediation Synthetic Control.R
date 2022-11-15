@@ -1,1 +1,0 @@
-###---Mediation: Synthetic Control Method---###
