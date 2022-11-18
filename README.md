@@ -1,1 +1,1 @@
-# Causal-Impact-of-Mediation-on-Violence
+# Causal-Impact-of-Negotiated-Settlements-on-Peace
