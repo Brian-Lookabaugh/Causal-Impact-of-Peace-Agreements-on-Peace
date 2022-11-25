@@ -1,0 +1,52 @@
+---
+title: "Untangling the Causal Relationship Between Peace Agreements and Peace"
+abstract: "\\dropcap{M}"
+author:
+  - "Brian Lookabaugh"
+  - "University of North Texas"
+format: 
+  docx:
+    toc: false
+    reference-doc: (this determines font and formatting)
+fontsize: 12pt
+bibliography: (placeholder)
+linkcolor: "#00853E"
+citecolor: "#00853E"
+crossref: 
+  tbl-prefix: ""
+  fig-prefix: ""
+  eq-prefix: ""
+---
+
+```{r Formatting Setup, include=FALSE}
+knitr::opts_chunk$set(
+  cache = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  echo = FALSE,
+  comment = ' ',
+  fig.align = "center"
+)
+# Load Required Libraries
+pacman::p_load(
+  "tidyverse",
+  install = FALSE
+)
+# Set Base Theme Settings for Plotting
+theme_set(plot_theme(
+  yaxis_size = 32,
+  xaxis_size = 32,
+  title_size = 40,
+  strip_size = 26,
+  subtitle_size = 30,
+  x_axis_face = "bold",
+  y_axis_face = "bold",
+  strip_face = "bold",
+  axis_text_size = 25,
+  plot.background = element_rect(fill = "white", color = "white"),
+  axis.text = element_text(size = 20),
+  axis.line.x.bottom = element_line(colour = "black"),
+  axis.line.y.left = element_line(colour = "black"),
+  legend_text_size = 30
+))
+```
