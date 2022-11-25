@@ -71,8 +71,9 @@ After decades of research, a consensus on the exact effect of prior war outcomes
 
 ***The State and Limitations of Current Causal Research***
 
-***Segue to the Synthetic Control Method***
+***The Justification of Causal Research***
 
+***Segue to the Synthetic Control Method***
 
 # The Syntehtic Control Method
 
